@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DocumentsLauncherActivity">
+
+  <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/new_document"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/listPreferredItemHeight"
+      android:background="?attr/selectableItemBackground"
+      android:gravity="center"
+      android:text="New Document"
+      android:textSize="18sp" />
+
+  <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/multiple_documents"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/listPreferredItemHeight"
+      android:background="?attr/selectableItemBackground"
+      android:gravity="center"
+      android:text="Multiple Documents"
+      android:textSize="18sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
