@@ -37,5 +37,14 @@ Example:
 
 https://github.com/vshpyrka/android-documents-example/assets/2741602/66d7e69e-c67e-44dd-a0ed-bbf98dbe1bce
 
+Manifest configuration:
+
+```
+<activity android:name=".multi_instance_doc.DocumentActivity"
+            android:autoRemoveFromRecents="true"
+            android:documentLaunchMode="always"
+            android:exported="false" />
+```
+
 
 More information about launch configuration tags [android:documentLaunchMode](https://developer.android.com/guide/components/activities/recents#attr-doclaunch)
