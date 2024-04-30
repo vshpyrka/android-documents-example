@@ -28,7 +28,7 @@ class DocumentActivity : AppCompatActivity() {
         binding.tasks.text = tasks
     }
 
-    override fun onNewIntent(intent: Intent?) {
+    override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         binding.status.text = "Document opened again"
         binding.status.isVisible = true
